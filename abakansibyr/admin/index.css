@@ -1,0 +1,52 @@
+
+* {box-sizing: border-box; margin: 0;}
+.widget {
+  padding: 20px 30px;
+  background: white;
+  font-family: 'Roboto', sans-serif;
+}
+.widget-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-size: 16px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  border-left: 2px solid green;
+}
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+}
+.widget-list a:hover {color: green;}
+
+
+.form-control{
+    height: 40px;
+    width: 500px;
+    margin-left: 100px;
+}
+.btn_search{
+    margin-left: 610px;
+    margin-top: -70px;
+}
+/* Стили для календаря (input[type="date"]) */
+input[type="date"]:hover {
+  background-color: #d4edda;  /* Зеленый фон */
+  border-color: #28a745;  /* Зеленая граница */
+  box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);  /* Тень с зеленым оттенком */
+}
